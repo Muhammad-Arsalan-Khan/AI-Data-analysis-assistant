@@ -1,0 +1,201 @@
+OrderID,Product,City,CustomerAge,Price,Quantity,Category,Sales
+1001,Speaker,Karachi,57.0,102.69,2,Accessories,205.38
+1002,Smart Watch,Faisalabad,50.0,1110.81,4,Wearables,4443.24
+1003,Tablet,Multan,26.0,827.96,2,Electronics,1655.92
+1004,Speaker,Faisalabad,,1064.63,1,Accessories,1064.63
+1005,Headphones,Multan,46.0,1453.6,2,Accessories,2907.2
+1006,Keyboard,Multan,59.0,1038.28,2,Accessories,2076.56
+1007,Tablet,Islamabad,43.0,1258.71,3,Electronics,3776.13
+1008,Tablet,Multan,52.0,1302.97,4,Electronics,5211.88
+1009,Speaker,Faisalabad,42.0,1260.95,3,Accessories,3782.8500000000004
+1010,Mobile Phone,Multan,41.0,650.62,3,Electronics,1951.8600000000001
+1011,Headphones,Islamabad,30.0,349.41,3,Accessories,1048.23
+1012,Speaker,Islamabad,24.0,607.04,3,Accessories,1821.12
+1013,Headphones,Faisalabad,53.0,1340.01,3,Accessories,4020.0299999999997
+1014,Headphones,Lahore,37.0,236.98,2,Accessories,473.96
+1015,Keyboard,Lahore,18.0,779.72,3,Accessories,2339.16
+1016,Tablet,Multan,25.0,365.18,3,Electronics,1095.54
+1017,Smart Watch,Karachi,33.0,880.33,4,Wearables,3521.32
+1018,Keyboard,Multan,31.0,1297.45,1,Accessories,1297.45
+1019,Keyboard,Faisalabad,29.0,1322.93,2,Accessories,2645.86
+1020,Headphones,Faisalabad,40.0,370.29,2,Accessories,740.58
+1021,Camera,Faisalabad,32.0,1363.39,2,Electronics,2726.78
+1022,Tablet,Faisalabad,45.0,896.0,3,Electronics,2688.0
+1023,Mobile Phone,Faisalabad,51.0,538.32,3,Electronics,1614.96
+1024,Keyboard,Islamabad,19.0,1068.11,3,Accessories,3204.33
+1025,Smart Watch,Lahore,49.0,732.87,4,Wearables,2931.48
+1026,Camera,Faisalabad,40.0,579.42,1,Electronics,579.42
+1027,Camera,Karachi,39.0,1063.52,3,Electronics,3190.56
+1028,Mobile Phone,Karachi,42.0,388.11,1,Electronics,388.11
+1029,Keyboard,Karachi,39.0,508.77,4,Accessories,2035.08
+1030,Smart Watch,Karachi,39.0,662.99,2,Wearables,1325.98
+1031,Tablet,Islamabad,59.0,395.45,3,Electronics,1186.35
+1032,Laptop,Karachi,23.0,619.7,1,Electronics,619.7
+1033,Smart Watch,Faisalabad,32.0,865.78,1,Wearables,865.78
+1034,Mobile Phone,Multan,54.0,1116.64,3,Electronics,3349.92
+1035,Camera,Karachi,50.0,1155.45,2,Electronics,2310.9
+1036,Tablet,Islamabad,25.0,1237.73,2,Electronics,2475.46
+1037,Smart Watch,Islamabad,22.0,1121.43,2,Wearables,2242.86
+1038,Laptop,Karachi,56.0,1027.94,4,Electronics,4111.76
+1039,Laptop,Multan,21.0,371.51,1,Electronics,371.51
+1040,Headphones,Karachi,23.0,612.33,1,Accessories,612.33
+1041,Headphones,Islamabad,49.0,727.02,1,Accessories,727.02
+1042,Speaker,Lahore,47.0,142.68,4,Accessories,570.72
+1043,Mobile Phone,Faisalabad,52.0,801.99,1,Electronics,801.99
+1044,Keyboard,Islamabad,57.0,665.78,4,Accessories,2663.12
+1045,Smart Watch,Karachi,33.0,1207.12,2,Wearables,2414.24
+1046,Smart Watch,Faisalabad,30.0,1467.29,3,Wearables,4401.87
+1047,Keyboard,Karachi,59.0,842.89,1,Accessories,842.89
+1048,Speaker,Karachi,,497.58,1,Accessories,497.58
+1049,Camera,Lahore,36.0,84.23,2,Electronics,168.46
+1050,Camera,Faisalabad,,1388.47,3,Electronics,4165.41
+1051,Speaker,Faisalabad,36.0,1380.29,4,Accessories,5521.16
+1052,Camera,Lahore,45.0,394.43,3,Electronics,1183.29
+1053,Headphones,Islamabad,43.0,1049.21,2,Accessories,2098.42
+1054,Smart Watch,Karachi,54.0,131.64,2,Wearables,263.28
+1055,Speaker,Multan,43.0,266.0,3,Accessories,798.0
+1056,Smart Watch,Karachi,40.0,340.88,4,Wearables,1363.52
+1057,Keyboard,Karachi,26.0,455.85,4,Accessories,1823.4
+1058,Laptop,Islamabad,29.0,1493.83,1,Electronics,1493.83
+1059,Headphones,Karachi,18.0,1051.45,4,Accessories,4205.8
+1060,Tablet,Lahore,18.0,588.62,3,Electronics,1765.8600000000001
+1061,Headphones,Lahore,51.0,1110.91,2,Accessories,2221.82
+1062,Speaker,Faisalabad,49.0,1374.58,1,Accessories,1374.58
+1063,Tablet,Multan,42.0,1438.88,1,Electronics,1438.88
+1064,Laptop,Karachi,57.0,105.64,2,Electronics,211.28
+1065,Speaker,Karachi,18.0,603.89,4,Accessories,2415.56
+1066,Mobile Phone,Islamabad,33.0,178.0,2,Electronics,356.0
+1067,Smart Watch,Lahore,56.0,516.78,4,Wearables,2067.12
+1068,Laptop,Multan,22.0,271.13,2,Electronics,542.26
+1069,Smart Watch,Faisalabad,39.0,977.34,3,Wearables,2932.02
+1070,Camera,Lahore,,594.64,4,Electronics,2378.56
+1071,Mobile Phone,Faisalabad,20.0,359.5,3,Electronics,1078.5
+1072,Mobile Phone,Islamabad,29.0,413.59,1,Electronics,413.59
+1073,Laptop,Islamabad,43.0,553.31,2,Electronics,1106.62
+1074,Mobile Phone,Karachi,33.0,404.73,1,Electronics,404.73
+1075,Tablet,Multan,54.0,690.8,1,Electronics,690.8
+1076,Mobile Phone,Faisalabad,39.0,67.83,1,Electronics,67.83
+1077,Smart Watch,Lahore,46.0,434.05,1,Wearables,434.05
+1078,Smart Watch,Islamabad,31.0,628.59,2,Wearables,1257.18
+1079,Speaker,Karachi,45.0,912.12,1,Accessories,912.12
+1080,Smart Watch,Karachi,22.0,421.02,2,Wearables,842.04
+1081,Speaker,Faisalabad,47.0,217.11,2,Accessories,434.22
+1082,Smart Watch,Islamabad,22.0,132.78,3,Wearables,398.34000000000003
+1083,Tablet,Multan,29.0,1411.99,4,Electronics,5647.96
+1084,Keyboard,Islamabad,33.0,636.63,4,Accessories,2546.52
+1085,Speaker,Faisalabad,43.0,880.12,2,Accessories,1760.24
+1086,Headphones,Faisalabad,43.0,1380.38,3,Accessories,4141.14
+1087,Camera,Islamabad,38.0,142.47,2,Electronics,284.94
+1088,Laptop,Faisalabad,56.0,1317.46,2,Electronics,2634.92
+1089,Smart Watch,Islamabad,53.0,836.35,2,Wearables,1672.7
+1090,Mobile Phone,Lahore,50.0,263.95,3,Electronics,791.8499999999999
+1091,Keyboard,Islamabad,47.0,628.66,4,Accessories,2514.64
+1092,Smart Watch,Islamabad,54.0,1170.85,3,Wearables,3512.5499999999997
+1093,Mobile Phone,Faisalabad,40.0,730.95,1,Electronics,730.95
+1094,Camera,Faisalabad,27.0,1478.22,3,Electronics,4434.66
+1095,Camera,Karachi,22.0,577.57,3,Electronics,1732.71
+1096,Camera,Karachi,53.0,1129.38,3,Electronics,3388.1400000000003
+1097,Mobile Phone,Lahore,51.0,601.62,3,Electronics,1804.8600000000001
+1098,Smart Watch,Karachi,48.0,1247.16,4,Wearables,4988.64
+1099,Camera,Islamabad,,862.24,1,Electronics,862.24
+1100,Tablet,Faisalabad,36.0,114.0,4,Electronics,456.0
+1101,Speaker,Karachi,49.0,74.5,4,Accessories,298.0
+1102,Mobile Phone,Karachi,18.0,218.1,3,Electronics,654.3
+1103,Mobile Phone,Lahore,22.0,40.23,2,Electronics,80.46
+1104,Smart Watch,Lahore,21.0,131.53,2,Wearables,263.06
+1105,Mobile Phone,Islamabad,33.0,1043.74,4,Electronics,4174.96
+1106,Mobile Phone,Faisalabad,41.0,810.83,4,Electronics,3243.32
+1107,Camera,Lahore,33.0,1129.87,3,Electronics,3389.6099999999997
+1108,Smart Watch,Karachi,19.0,1371.49,4,Wearables,5485.96
+1109,Camera,Faisalabad,45.0,886.02,3,Electronics,2658.06
+1110,Speaker,Faisalabad,49.0,1094.66,2,Accessories,2189.32
+1111,Keyboard,Karachi,44.0,1140.48,2,Accessories,2280.96
+1112,Speaker,Lahore,37.0,579.22,1,Accessories,579.22
+1113,Keyboard,Karachi,41.0,376.81,2,Accessories,753.62
+1114,Camera,Faisalabad,29.0,323.47,4,Electronics,1293.88
+1115,Speaker,Multan,52.0,392.13,2,Accessories,784.26
+1116,Smart Watch,Multan,50.0,426.6,3,Wearables,1279.8000000000002
+1117,Laptop,Islamabad,50.0,326.7,2,Electronics,653.4
+1118,Camera,Karachi,54.0,1319.77,1,Electronics,1319.77
+1119,Keyboard,Karachi,29.0,1140.36,2,Accessories,2280.72
+1120,Tablet,Islamabad,20.0,89.41,3,Electronics,268.23
+1121,Keyboard,Islamabad,18.0,417.64,3,Accessories,1252.92
+1122,Tablet,Islamabad,50.0,52.83,4,Electronics,211.32
+1123,Mobile Phone,Faisalabad,57.0,757.28,2,Electronics,1514.56
+1124,Speaker,Karachi,27.0,724.79,3,Accessories,2174.37
+1125,Tablet,Faisalabad,46.0,1250.43,1,Electronics,1250.43
+1126,Keyboard,Islamabad,30.0,475.51,4,Accessories,1902.04
+1127,Mobile Phone,Karachi,29.0,1228.25,1,Electronics,1228.25
+1128,Laptop,Faisalabad,48.0,1452.6,2,Electronics,2905.2
+1129,Smart Watch,Faisalabad,19.0,150.84,2,Wearables,301.68
+1130,Smart Watch,Islamabad,52.0,1191.89,2,Wearables,2383.78
+1131,Smart Watch,Karachi,40.0,893.13,4,Wearables,3572.52
+1132,Tablet,Islamabad,34.0,730.47,3,Electronics,2191.41
+1133,Laptop,Karachi,43.0,642.39,4,Electronics,2569.56
+1134,Tablet,Multan,25.0,1181.31,1,Electronics,1181.31
+1135,Speaker,Lahore,46.0,966.25,4,Accessories,3865.0
+1136,Tablet,Lahore,43.0,1211.47,1,Electronics,1211.47
+1137,Laptop,Lahore,27.0,1356.66,4,Electronics,5426.64
+1138,Laptop,Islamabad,43.0,933.55,3,Electronics,2800.6499999999996
+1139,Speaker,Multan,51.0,1471.08,1,Accessories,1471.08
+1140,Laptop,Karachi,58.0,919.97,2,Electronics,1839.94
+1141,Keyboard,Faisalabad,24.0,962.23,2,Accessories,1924.46
+1142,Laptop,Karachi,21.0,841.13,4,Electronics,3364.52
+1143,Smart Watch,Faisalabad,28.0,154.68,2,Wearables,309.36
+1144,Keyboard,Karachi,46.0,1095.07,1,Accessories,1095.07
+1145,Keyboard,Multan,53.0,830.22,2,Accessories,1660.44
+1146,Speaker,Faisalabad,42.0,687.35,3,Accessories,2062.05
+1147,Headphones,Islamabad,,1367.5,3,Accessories,4102.5
+1148,Headphones,Karachi,53.0,460.98,4,Accessories,1843.92
+1149,Laptop,Karachi,,794.93,1,Electronics,794.93
+1150,Keyboard,Faisalabad,54.0,1052.51,3,Accessories,3157.5299999999997
+1151,Headphones,Islamabad,26.0,1198.78,3,Accessories,3596.34
+1152,Headphones,Islamabad,41.0,699.83,1,Accessories,699.83
+1153,Laptop,Multan,52.0,1266.3,2,Electronics,2532.6
+1154,Headphones,Islamabad,52.0,1158.0,2,Accessories,2316.0
+1155,Tablet,Islamabad,53.0,118.03,4,Electronics,472.12
+1156,Mobile Phone,Islamabad,35.0,87.87,2,Electronics,175.74
+1157,Speaker,Lahore,56.0,938.79,1,Accessories,938.79
+1158,Mobile Phone,Multan,49.0,534.17,3,Electronics,1602.5099999999998
+1159,Laptop,Karachi,41.0,329.51,2,Electronics,659.02
+1160,Smart Watch,Faisalabad,40.0,877.88,4,Wearables,3511.52
+1161,Speaker,Karachi,49.0,525.51,2,Accessories,1051.02
+1162,Laptop,Multan,54.0,815.15,1,Electronics,815.15
+1163,Keyboard,Faisalabad,29.0,700.98,4,Accessories,2803.92
+1164,Smart Watch,Multan,30.0,885.45,2,Wearables,1770.9
+1165,Mobile Phone,Islamabad,40.0,612.44,4,Electronics,2449.76
+1166,Laptop,Faisalabad,42.0,1052.55,1,Electronics,1052.55
+1167,Keyboard,Islamabad,52.0,286.5,3,Accessories,859.5
+1168,Speaker,Karachi,58.0,1050.82,1,Accessories,1050.82
+1169,Speaker,Karachi,47.0,629.26,1,Accessories,629.26
+1170,Camera,Faisalabad,34.0,1313.99,1,Electronics,1313.99
+1171,Keyboard,Faisalabad,37.0,782.55,1,Accessories,782.55
+1172,Tablet,Multan,42.0,1460.2,3,Electronics,4380.6
+1173,Headphones,Multan,39.0,910.86,3,Accessories,2732.58
+1174,Smart Watch,Islamabad,30.0,351.3,4,Wearables,1405.2
+1175,Keyboard,Faisalabad,36.0,1236.25,2,Accessories,2472.5
+1176,Camera,Karachi,53.0,530.72,3,Electronics,1592.16
+1177,Headphones,Multan,29.0,534.48,3,Accessories,1603.44
+1178,Headphones,Multan,58.0,67.07,2,Accessories,134.14
+1179,Laptop,Karachi,36.0,832.1,3,Electronics,2496.3
+1180,Headphones,Multan,29.0,810.95,1,Accessories,810.95
+1181,Tablet,Islamabad,26.0,546.87,1,Electronics,546.87
+1182,Speaker,Faisalabad,24.0,1343.44,2,Accessories,2686.88
+1183,Camera,Karachi,45.0,210.55,4,Electronics,842.2
+1184,Headphones,Faisalabad,31.0,508.55,4,Accessories,2034.2
+1185,Laptop,Multan,48.0,495.94,2,Electronics,991.88
+1186,Tablet,Multan,36.0,156.59,2,Electronics,313.18
+1187,Mobile Phone,Karachi,33.0,732.1,1,Electronics,732.1
+1188,Speaker,Islamabad,22.0,1037.92,4,Accessories,4151.68
+1189,Speaker,Lahore,52.0,777.25,3,Accessories,2331.75
+1190,Camera,Karachi,29.0,252.33,1,Electronics,252.33
+1191,Speaker,Lahore,42.0,578.38,2,Accessories,1156.76
+1192,Headphones,Lahore,38.0,23.84,4,Accessories,95.36
+1193,Laptop,Islamabad,53.0,1305.09,3,Electronics,3915.2699999999995
+1194,Speaker,Lahore,40.0,145.09,3,Accessories,435.27
+1195,Speaker,Lahore,33.0,903.97,1,Accessories,903.97
+1196,Mobile Phone,Islamabad,56.0,1479.66,4,Electronics,5918.64
+1197,Mobile Phone,Lahore,,814.15,4,Electronics,3256.6
+1198,Smart Watch,Lahore,56.0,1387.58,2,Wearables,2775.16
+1199,Tablet,Lahore,31.0,369.45,4,Electronics,1477.8
+1200,Headphones,Karachi,48.0,1144.73,4,Accessories,4578.92
