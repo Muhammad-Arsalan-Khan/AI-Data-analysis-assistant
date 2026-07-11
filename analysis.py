@@ -49,9 +49,9 @@ def clean_and_load(file_path):
     df.columns = df.columns.str.strip().str.lower()
     return df
 
+# 🌟 CRITICAL FIX: 'custom_key' aur 'num_rows' dono parameters yahan hona zaroori hain!
 def ask_gemini(df, question, custom_key=None, num_rows=10):
-    # 🌟 LOCAL VS LIVE HYBRID LOGIC
-    # Agar custom key di hai toh wo use karo, nahi toh system (.env) ki key check karo
+    # Agar live mode mein user ne key di hai toh wo use karo, nahi toh local .env se uthao
     api_key = custom_key if custom_key else os.getenv("GEMINI_API_KEY")
     
     if not api_key:
@@ -59,8 +59,7 @@ def ask_gemini(df, question, custom_key=None, num_rows=10):
 
     client = genai.Client(api_key=api_key)
     
-    # 🌟 USER DEFINED ROWS FOR AI CONTEXT
-    # Pure dataset ke bajaye user ki demand ke mutabiq slice karte hain
+    # User jitni rows bolega utni hi filter hongi
     sampled_df = df.head(num_rows)
     
     data_summary = f"""
@@ -73,7 +72,7 @@ def ask_gemini(df, question, custom_key=None, num_rows=10):
     prompt = f"Based on this data summary:\n{data_summary}\n\nAnswer this question: {question}"
     
     response = client.models.generate_content(
-        model="gemini-3.5-flash", 
+        model="gemini-2.5-flash", 
         contents=prompt,
     )
     return response.text
