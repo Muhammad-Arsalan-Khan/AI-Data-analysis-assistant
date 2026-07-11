@@ -72,7 +72,7 @@ def ask_gemini(df, question, custom_key=None, num_rows=10):
     prompt = f"Based on this data summary:\n{data_summary}\n\nAnswer this question: {question}"
     
     response = client.models.generate_content(
-        model="gemini-2.5-flash", 
+        model="gemini-3.5-flash", 
         contents=prompt,
     )
     return response.text
