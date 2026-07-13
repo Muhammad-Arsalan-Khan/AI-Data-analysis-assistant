@@ -1,10 +1,9 @@
 # import pandas as pd
 # import numpy as np
-# import os
 # from google import genai
-# from dotenv import load_dotenv  
+# from dotenv import load_dotenv
+# import os
 
-# # .env file se automatic fresh key uthane ke liye
 # load_dotenv()
 
 # def clean_and_load(file_path):
@@ -12,22 +11,30 @@
 #     df.columns = df.columns.str.strip().str.lower()
 #     return df
 
-# def ask_gemini(df, question):
-#     # Kisi os.environ ki zaroorat nahi hai yahan!
-#     # genai.Client() background mein khud hi .env se fresh key dhoond lega.
-#     client = genai.Client()
+# # 🌟 CRITICAL FIX: 'custom_key' aur 'num_rows' dono parameters yahan hona zaroori hain!
+# def ask_gemini(df, question, custom_key=None, num_rows=10):
+#     # Agar live mode mein user ne key di hai toh wo use karo, nahi toh local .env se uthao
+#     api_key = custom_key if custom_key else os.getenv("GEMINI_API_KEY")
     
-#     # Data Summary for Context
+#     if not api_key:
+#         raise ValueError("API Key missing")
+
+#     client = genai.Client(api_key=api_key)
+    
+#     # User jitni rows bolega utni hi filter hongi
+#     sampled_df = df.head(num_rows)
+    
 #     data_summary = f"""
 #     Dataset Columns: {', '.join(df.columns)}
-#     Total Records: {len(df)}
-#     Sample Data:\n{df.head(3).to_string()}
+#     Total Rows in Dataset: {len(df)}
+#     Analyzed Rows for Context: {num_rows}
+#     Sample Data:\n{sampled_df.to_string()}
 #     """
     
 #     prompt = f"Based on this data summary:\n{data_summary}\n\nAnswer this question: {question}"
     
 #     response = client.models.generate_content(
-#         model="gemini-3.5-flash",
+#         model="gemini-3.5-flash", 
 #         contents=prompt,
 #     )
 #     return response.text
@@ -49,9 +56,8 @@ def clean_and_load(file_path):
     df.columns = df.columns.str.strip().str.lower()
     return df
 
-# 🌟 CRITICAL FIX: 'custom_key' aur 'num_rows' dono parameters yahan hona zaroori hain!
-def ask_gemini(df, question, custom_key=None, num_rows=10):
-    # Agar live mode mein user ne key di hai toh wo use karo, nahi toh local .env se uthao
+# 🌟 DYNAMIC FIXED: 'selected_cols' parameter yahan add kar diya hai
+def ask_gemini(df, question, custom_key=None, num_rows=10, selected_cols=None):
     api_key = custom_key if custom_key else os.getenv("GEMINI_API_KEY")
     
     if not api_key:
@@ -59,17 +65,20 @@ def ask_gemini(df, question, custom_key=None, num_rows=10):
 
     client = genai.Client(api_key=api_key)
     
-    # User jitni rows bolega utni hi filter hongi
-    sampled_df = df.head(num_rows)
+    # Agar user ne columns select kiye hain toh sirf wahi bhejo, warna saare
+    cols_to_use = selected_cols if selected_cols else list(df.columns)
+    
+    # Filter rows and columns dynamically
+    sampled_df = df[cols_to_use].head(num_rows)
     
     data_summary = f"""
-    Dataset Columns: {', '.join(df.columns)}
-    Total Rows in Dataset: {len(df)}
+    Dataset Total Dimensions: {len(df)} rows x {len(df.columns)} columns
+    Analyzed Columns: {', '.join(cols_to_use)}
     Analyzed Rows for Context: {num_rows}
-    Sample Data:\n{sampled_df.to_string()}
+    Sample Data Filtered:\n{sampled_df.to_string()}
     """
     
-    prompt = f"Based on this data summary:\n{data_summary}\n\nAnswer this question: {question}"
+    prompt = f"Based on this filtered data summary:\n{data_summary}\n\nAnswer this question: {question}"
     
     response = client.models.generate_content(
         model="gemini-3.5-flash", 
