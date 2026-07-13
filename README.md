@@ -4,6 +4,8 @@ An automated, intelligent data analytics and visualization platform built with *
 
 ---
 
+🌍Live : https://ai-data-analysis-assistantt.streamlit.app/
+
 ## 🚀 Features
 
 - **💡 Automated Smart UI**: Clean dashboard layout optimized with dark mode themes.
